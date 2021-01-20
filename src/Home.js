@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./index.css";
 
-import Home_info from "./Components/Home_info";
-import Contact_form from "./Components/Contact_form";
+import HomeInfo from "./Components/HomeInfo";
+import ContactForm from "./Components/ContactForm";
 
 export default class Home extends Component {
   render() {
@@ -18,8 +18,8 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <Home_info />
-        <Contact_form />
+        <HomeInfo />
+        <ContactForm />
       </div>
     );
   }
