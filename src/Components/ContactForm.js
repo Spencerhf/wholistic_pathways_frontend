@@ -3,7 +3,7 @@ import axios from "axios";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-export default class Contact_form extends Component {
+export default class ContactForm extends Component {
   state = {
     name: "",
     message: "",

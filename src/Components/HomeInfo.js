@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Homeopathy from "../Images/homeopathy.jpg";
 import Living_Food from "../Images/Kombucha.jpg";
 
-export default class Home_info extends Component {
+export default class HomeInfo extends Component {
   render() {
     return (
       <div style={{ marginTop: "80px" }}>

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98786f5b.chunk.css",
+    "main.js": "/static/js/main.83cbb213.chunk.js",
+    "main.js.map": "/static/js/main.83cbb213.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a7a57dac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a7a57dac.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.412deb64.chunk.js": "/static/js/2.412deb64.chunk.js",
+    "static/js/2.412deb64.chunk.js.map": "/static/js/2.412deb64.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.98786f5b.chunk.css.map": "/static/css/main.98786f5b.chunk.css.map",
+    "static/js/2.412deb64.chunk.js.LICENSE.txt": "/static/js/2.412deb64.chunk.js.LICENSE.txt",
+    "static/media/Kombucha.357cb235.jpg": "/static/media/Kombucha.357cb235.jpg",
+    "static/media/homeopathy.15ac163c.jpg": "/static/media/homeopathy.15ac163c.jpg",
+    "static/media/index.css": "/static/media/pathway-image.0c5f0297.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7a57dac.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.412deb64.chunk.js",
+    "static/css/main.98786f5b.chunk.css",
+    "static/js/main.83cbb213.chunk.js"
+  ]
+}
