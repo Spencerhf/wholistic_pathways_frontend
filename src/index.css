@@ -39,39 +39,58 @@ body::-webkit-scrollbar {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Home info section styling */
+.info-bg {
+  padding: 40px 20px;
+  margin: 50px 0px;
+  width: 90%;
+  background-color: rgb(228, 228, 228);
+}
+
 .info-header {
-  font-size: 35px;
-  margin-bottom: 40px;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
 }
 
 .info-p {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .img1 {
   display: block;
-  margin: auto;
+  margin: 15px;
   width: 100%;
   max-width: 550px;
-  min-width: 300px;
-  height: 370px;
+  min-width: 200px;
+  max-height: 370px;
+  min-height: 50px
+}
+/* End Home info section */
+
+/* Contact form */
+.contact-title {
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
 }
 
-@media only screen and (max-width: 1320px) {
-  .img1 {
-    width: 480px;
-    height: auto;
-    overflow: hidden;
-  }
+.contact-form {
+  padding-bottom: 20px;
+  margin: auto;
+  width: 50%;
+  max-width: 500px;
+  color: white;
 }
 
-@media only screen and (max-width: 1160px) {
-  .img1 {
-    width: 480px;
-    height: auto;
-  }
+.text-field {
+  margin: auto;
+  margin-bottom: 20px;
 }

@@ -8,11 +8,11 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="bg">
+        <div className="bg box-shadow">
           <div id="overlay">
             <div
               className="text-center"
-              style={{ color: "white", fontSize: "50px", paddingTop: "130px" }}
+              style={{ color: "white", fontSize: "3.5rem", paddingTop: "130px" }}
             >
               Find your path <br /> to whole health
             </div>

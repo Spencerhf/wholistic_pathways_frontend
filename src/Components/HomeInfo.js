@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import Homeopathy from "../Images/homeopathy.jpg";
 import Living_Food from "../Images/Kombucha.jpg";
 
 export default class HomeInfo extends Component {
   render() {
     return (
-      <div style={{ marginTop: "80px" }}>
-        <Row className="w-100 mx-auto align-items-center justify-content-around" style={{ marginBottom: "80px" }}>
-          <Col className="col-lg-5 col-md-12 col-sm-12"><img className="img1" src={Homeopathy} alt="Homeopathy"/></Col>
-          <Col className="col-lg-5 col-md-12 col-sm-12 text-center">
+      <div className="mx-auto info-bg box-shadow">
+        <Row className="w-100 mx-auto align-items-center justify-content-around" style={{ marginBottom: "60px" }}>
+          <Col className="col-lg-6 col-12"><img className="img1 box-shadow mx-auto" src={Homeopathy} alt="Homeopathy"/></Col>
+          <Col className="col-lg-6 col-12 text-center">
             <h3 className="info-header"><strong>Homeopathy</strong></h3>
             <p className="info-p">
               Homeopathy is a system of medicine that seeks to correct
@@ -20,13 +21,14 @@ export default class HomeInfo extends Component {
               200 years and is still widely used around the world today.
               Homeopathy can be used to treat a wide range of conditions and
               with no negative side effects. If you want to learn more about
-              homeopathy click here
+              homeopathy
             </p>
+            <Button>Learn More</Button>
           </Col>
         </Row>
-        <hr style={{width: "50%", margin: "auto", marginBottom: "80px", height: "1px", backgroundColor: "black"}}/>
+        <hr style={{width: "90%", margin: "auto", marginBottom: "60px", height: ".2px", backgroundColor: "black"}}/>
         <Row className="w-100 mx-auto align-items-center justify-content-around">
-          <Col className="col-lg-5 col-md-12 col-sm-12 text-center">
+          <Col className="col-lg-6 col-12 text-center">
             <h3 className="info-header"><strong>Living Food</strong></h3>
             <p className="info-p">
               Have you ever heard of living foods? No, I’m not talking about Bob
@@ -41,8 +43,9 @@ export default class HomeInfo extends Component {
               fatigue, depression, digestive issues, food and environmental
               allergies, acne, eczema, high blood pressure, obesity, and more.
             </p>
+            <Button>Learn More</Button>
           </Col>
-          <Col className="col-lg-5 col-md-12 col-sm-12"><img className="img1 img2" src={Living_Food} alt="Living Food"/></Col>
+          <Col className="col-lg-6 col-12"><img className="img1 img2 box-shadow mx-auto" src={Living_Food} alt="Living Food"/></Col>
         </Row>
       </div>
     );

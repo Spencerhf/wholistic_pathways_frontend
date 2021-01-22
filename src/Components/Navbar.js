@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import "./../index.css";
+import "../index.css";
 
 export default class Navigationbar extends Component {
 
@@ -13,7 +13,7 @@ export default class Navigationbar extends Component {
         variant="dark"
         expand="lg"
       >
-        <Navbar.Brand className="pl-4" style={{ fontSize: "28px" }}>WholisticPathways</Navbar.Brand>
+        <Navbar.Brand className="pl-4" style={{ fontSize: "1.5rem" }}>WholisticPathways</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto pr-4" style={{ height: "auto" }}>
