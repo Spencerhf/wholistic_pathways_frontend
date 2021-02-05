@@ -9,10 +9,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.btn {
+  background-color: rgb(87, 145, 95);
+  border: none;
+}
+
 .btn:hover {
-  background-color: #686868;
+  background-color: #70a365;
   border-radius: 10px;
-  transition: 0.5s;
+  transition: 0.2s;
+  border: none;
 }
 
 .btn:focus {
@@ -39,19 +45,33 @@ body::-webkit-scrollbar {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .box-shadow {
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 4px 6px 1px #888888;
+}
+
+.links {
+  font-size: 15px; 
+  text-decoration: none; 
+  color: white;
+}
+
+.links:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* Home info section styling */
-.info-bg {
-  padding: 40px 20px;
-  margin: 50px 0px;
-  width: 90%;
+.bg-container {
+  padding: 40px 5px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 95%;
   background-color: rgb(228, 228, 228);
+  border-radius: 5px;
 }
 
 .info-header {
@@ -59,7 +79,7 @@ body::-webkit-scrollbar {
   margin-bottom: 20px;
 }
 
-.info-p {
+p {
   font-size: 1.2rem;
 }
 
@@ -67,30 +87,53 @@ body::-webkit-scrollbar {
   display: block;
   margin: 15px;
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   min-width: 200px;
-  max-height: 370px;
-  min-height: 50px
+  max-height: 320px;
+  min-height: 50px;
+  border-radius: 5px;
 }
 /* End Home info section */
 
 /* Contact form */
 .contact-title {
-  padding: 20px 0px;
+  padding-top: 30px;
   text-align: center;
   color: white;
   font-size: 3.5rem;
 }
 
 .contact-form {
-  padding-bottom: 20px;
+  padding: 0px 10px 20px 10px;
   margin: auto;
-  width: 50%;
-  max-width: 500px;
-  color: white;
+  margin-top: 20px;
+  max-width: 600px;
 }
 
 .text-field {
   margin: auto;
   margin-bottom: 20px;
+}
+
+/* Homeopathy Page Styling */
+.text-blurb {
+  padding: 20px 30px;
+}
+
+.table-style {
+  margin: auto;
+  padding: 0px 10px 20px 10px;
+  margin-top: 20px;
+  max-width: 1000px;
+  background-color: white;
+}
+
+.info-div {
+  text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .info-div {
+    text-align: center;
+  }
 }
