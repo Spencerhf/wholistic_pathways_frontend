@@ -6,6 +6,10 @@ import "../index.css";
 
 export default class Navigationbar extends Component {
 
+  clicked = () => {
+    window.location.reload();
+  }
+
   render() {
     return (
       <Navbar
@@ -14,12 +18,12 @@ export default class Navigationbar extends Component {
         variant="dark"
         expand="lg"
       >
-        <Navbar.Brand className="pl-4"><Link style={{ fontSize: "1.5rem", color: "white" }} to="/">WholisticPathways</Link></Navbar.Brand>
+        <Navbar.Brand className="pl-4"><Link style={{ fontSize: "1.5rem", color: "white" }} to="/" onClick={this.clicked}>WholisticPathways</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto pr-2" style={{ height: "auto" }}>
-            <Link className="links btn mx-1" to="/homeopathy">Homeopathy</Link>
-            <Link className="links btn mx-1" to="/living food">Living Food</Link>
+            <Link className="links btn mx-1" to="/homeopathy" onClick={this.clicked}>Homeopathy</Link>
+            <Link className="links btn mx-1" to="/living food" onClick={this.clicked}>Living Food</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
