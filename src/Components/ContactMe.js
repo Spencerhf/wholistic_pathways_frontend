@@ -19,7 +19,7 @@ export default class ContactMe extends Component {
     };
 
     axios
-      .post("https://wholistic-pathways-backend.herokuapp.com/send", data)
+      .post("https://vast-castle-65445.herokuapp.com/send", data)
       .catch(() => {
         console.log("Message not sent");
       });
@@ -71,7 +71,7 @@ export default class ContactMe extends Component {
         />
 
         <div className="mx-auto" style={{ width: "150px" }}>
-          <Button type="submit" className="button button-primary">
+          <Button type="submit" className="btn">
             Send Message
           </Button>
         </div>
