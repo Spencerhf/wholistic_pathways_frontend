@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -12,22 +12,22 @@ import Living_food from './Living_Food';
 
 import "./"
 
-function App() {
-  return (
-    <Router>
-      <ScrollToTop />
-      <Navigationbar />
-      <PathBackground />
-
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/homeopathy' component={Homeopathy} />
-        <Route path='/living food' component={Living_food} />
-      </Switch>
-
-      <Footer />
-    </Router>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <ScrollToTop />
+        <Navigationbar />
+        <PathBackground />
+  
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/homeopathy' component={Homeopathy} />
+          <Route path='/living food' component={Living_food} />
+        </Switch>
+  
+        <Footer />
+      </Router>
+    );
+  }
 }
-
-export default App;
