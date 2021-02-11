@@ -3,6 +3,11 @@ body {
   padding: 0;
   background-color: #d3d3d3;
   font-family: "Raleway", sans-serif;
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
